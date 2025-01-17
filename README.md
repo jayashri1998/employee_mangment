@@ -4,17 +4,6 @@ This project is a **React-based Employee Management System** that allows users t
 
 ---
 
-## Features
-
-- **View Employees**: Displays a list of employees with their details.
-- **Edit Employee**: Update employee information dynamically.
-- **Delete Employee**: Delete employee records from the database.
-- **Real-time Updates**: The UI updates immediately after editing or deleting records without requiring a page refresh.
-- **Confirmation Dialogs**: Uses `SweetAlert2` for confirmation dialogs and success/error messages.
-- **Responsive Design**: Fully responsive for different screen sizes.
-
----
-
 ## Technologies Used
 
 ### Frontend
@@ -25,6 +14,7 @@ This project is a **React-based Employee Management System** that allows users t
 
 ### Backend
 - **json-server**: A simple JSON-based REST API for managing employee data.
+   db.json : passing data 
 
 ---
 
@@ -34,5 +24,7 @@ This project is a **React-based Employee Management System** that allows users t
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/employee-management-system.git
-   cd employee-management-system
+   git clone https://github.com/jayashri1998/employee_mangment.git
+   cd employee_mangment
+   npm install
+   npm run dev
